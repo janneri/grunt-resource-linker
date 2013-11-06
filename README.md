@@ -12,7 +12,7 @@ A grunt plugin that links js-files and css-files to a html-file.
 
 If you haven’t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. 
 
-TODO: polish and publish to npm. Currently to use this plugin, you need to create copy the tasks-folder to your project.
+TODO: polish and publish to npm. Currently to use this plugin, you need to copy the tasks-folder to your project.
 
 ## Example
 
