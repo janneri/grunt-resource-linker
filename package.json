@@ -1,0 +1,26 @@
+{
+  "name": "grunt-resource-linker",
+  "version": "0.0.1",
+  "description": "Grunt plugin that creates a html-file with references to js-files and css-files in a specified folder.",
+  "author": {
+    "name": "Janne Rintanen"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/janneri/grunt-resource-linker/grunt-resource-linker.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-nodeunit": "~0.2.2",
+    "grunt-contrib-clean": "~0.5.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
