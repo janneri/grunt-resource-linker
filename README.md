@@ -81,3 +81,28 @@ Creates a dest file:
   <!-- js end -->
 ```
 
+## Configuration
+
+```
+'options': {
+      // required:
+      'srcFile': 'src.html',
+      'destFile': 'dest.html',
+      'jsFiles': 'js/*.js',
+      'cssFiles': 'css/*.css',
+
+      // optional with default values:
+      cssStart: '<!-- css start -->',
+      cssEnd: '<!-- css end -->',
+      jsStart: '<!-- js start -->',
+      jsEnd: '<!-- js end -->',
+
+      jsTmpl: '<script src="%s"></script>',
+      cssTmpl: '<link rel="stylesheet" type="text/css" href="%s">',
+      
+      jsPathToRemove: '',
+      jsPathToAdd: '',
+      cssPathToRemove: '',
+      cssPathToAdd: ''    
+}
+```
