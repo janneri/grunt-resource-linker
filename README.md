@@ -12,20 +12,22 @@ A grunt plugin that links js-files and css-files to a html-file.
 
 If you haven’t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. 
 
-TODO: polish and publish to npm. Currently to use this plugin, you need to copy the tasks-folder to your project.
+To use this plugin, run
+```npm install git+https://github.com/janneri/grunt-resource-linker --save-dev```
+
 
 ## Example
 
 Check out the Gruntfile.js and the tests for details..
 
 Running
-``` grunt linkscripts ```
+``` grunt linkresources ```
 
 With Gruntfile.js:
 ```
 ...
-        'linkscripts': {
-            'test-1': {
+        'linkresources': {
+            'default': {
                 'options': {
                     'srcFile': 'tests/fixtures/test-1-src.html',
                     'destFile': 'tests/fixtures/test-1-dest.html',
@@ -39,7 +41,7 @@ With Gruntfile.js:
 
   ...
 
-    grunt.loadTasks('tasks');
+    grunt.loadNpmTasks('grunt-resource-linker');
 ```
 
 And files:

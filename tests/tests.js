@@ -20,7 +20,7 @@ var grunt = require('grunt');
 		test.ifError(value)
 */
 
-exports.linkscripts = {
+exports.linkresources = {
   setUp: function(done) {
     done();
   },

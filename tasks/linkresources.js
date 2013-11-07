@@ -23,7 +23,7 @@ var countCharsBefore = function(string, fromIndex, expectedChar) {
 
 module.exports = function(grunt) {
 
-	grunt.registerMultiTask('linkscripts', 'Interpolate template files with any data you provide and save the result to another file.', function() {
+	grunt.registerMultiTask('linkresources', 'Interpolate template files with any data you provide and save the result to another file.', function() {
 
 		var options = this.options({
 	        cssStart: '<!-- css start -->',
