@@ -92,7 +92,10 @@ Creates a dest file:
       'destFile': 'dest.html',
       'jsFiles': 'js/*.js',
       'cssFiles': 'css/*.css',
-
+      // By default the resources have a path relative to the gruntfile.. You probably want these:
+      jsPathToRemove: '',
+      cssPathToRemove: '',
+      
       // optional with default values:
       cssStart: '<!-- css start -->',
       cssEnd: '<!-- css end -->',
@@ -102,9 +105,7 @@ Creates a dest file:
       jsTmpl: '<script src="%s"></script>',
       cssTmpl: '<link rel="stylesheet" type="text/css" href="%s">',
       
-      jsPathToRemove: '',
       jsPathToAdd: '',
-      cssPathToRemove: '',
-      cssPathToAdd: ''    
+      cssPathToAdd: '' 
 }
 ```
