@@ -36,12 +36,7 @@ module.exports = function(grunt) {
 	        jsPathToRemove: '',
 	        jsPathToAdd: '',
 	        cssPathToRemove: '',
-	        cssPathToAdd: '',
-	        destFile: 'tmp/dest.html',
-	        srcFile: 'tests/fixtures/test-1.html',
-	        jsFiles: 'tests/fixtures/js/*.js',
-	        cssFiles: 'tests/fixtures/css/*.css'
-	        
+	        cssPathToAdd: ''    
 		});
 
 		var createElement = function(filename) {
